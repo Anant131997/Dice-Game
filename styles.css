@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Satisfy&display=swap');
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: #2C3333;
+
+}
+.color{
+    color: #00FFAB;
+}
+.style{
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+.heading{
+    font-family: 'Satisfy', cursive;
+    font-size: 5rem;
+    /* font-weight: bold; */
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    /* position:relative;
+    margin:5% auto 3% 32%; */
+}
+.row{
+    display: flex;
+    margin-bottom: 3%;
+}
+.column1{
+    display: block;
+    margin:auto;
+    padding-left:15%;
+}
+.column2{
+    display: block;
+    margin:auto;
+    padding-right:15%;
+}
+.btn{
+    border-width: 1px;
+    padding: 0.2% 2%;
+    display:block;
+    margin: auto;
+    font-size: 2rem;
+    font-family: 'Satisfy', cursive;
+    font-weight: bolder;
+    color:#00FFAB;
+    background-color:#820000;
+    cursor: pointer;
+    margin-bottom:5%;
+}
+.btn:hover{
+    background-color: #890F0D;
+}
+.footer{
+    font-size: 1.2rem;
+    color:#fff;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+
+@media (max-width:780px){
+    .dice1{
+        display:block;
+        margin:auto;
+        width:50%;
+    }
+    .dice2{
+        display:block;
+        margin:auto;
+        width:50%;
+    }
+    .heading{
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    .style{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
